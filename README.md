@@ -38,4 +38,4 @@ Use `npm run build` to build the frontend or `npm start` to run just the API. Th
 
 ## Deploy to Vercel
 
-Import `sahilsirsam007/AI-Smart-Shop` in Vercel. The project is configured to build the Vite frontend into `public/` and run the Express API as a Vercel server. No environment variables are required for the sample-data version.
+Import `sahilsirsam007/AI-Smart-Shop` in Vercel. The project config deploys the Vite frontend and Express API as separate services and routes `/api` requests to the backend. No environment variables are required for the sample-data version.

@@ -82,10 +82,6 @@ app.post('/api/chat', (request, response) => {
   response.json({ reply, products: matches })
 })
 
-export { app }
-
-if (process.env.VERCEL !== '1') {
-  app.listen(port, () => {
-    console.log(`SmartShop API listening on http://localhost:${port}`)
-  })
-}
+app.listen(port, () => {
+  console.log(`SmartShop API listening on http://localhost:${port}`)
+})
