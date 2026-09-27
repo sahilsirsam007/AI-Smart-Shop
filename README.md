@@ -35,3 +35,7 @@ npm run dev
 Open the Vite URL printed in the terminal (normally http://localhost:5173). The API runs at http://localhost:5000 and is proxied by Vite. This runnable version uses ten in-memory sample products, so MongoDB and an AI API key are not required. The shopping assistant is deterministic and only recommends products from that catalog.
 
 Use `npm run build` to build the frontend or `npm start` to run just the API. The API includes product listing/search, product detail, comparison, chat recommendations, and a health check.
+
+## Deploy to Vercel
+
+Import `sahilsirsam007/AI-Smart-Shop` in Vercel. The project is configured to build the Vite frontend into `public/` and run the Express API as a Vercel server. No environment variables are required for the sample-data version.

@@ -2,6 +2,7 @@
   "name": "smartshop-ai",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "concurrently -k -n api,web npm:api npm:web",
     "api": "npm run dev --prefix backend",
@@ -11,5 +12,9 @@
   },
   "devDependencies": {
     "concurrently": "^10.0.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
   }
 }
